@@ -3,7 +3,8 @@ name: Merge Schedule
 on:
   pull_request:
     types:
-      - development
+      - opened
+      - edited
   schedule:
     # https://crontab.guru/every-hour
     - cron: 0 * * * *
