@@ -22,4 +22,4 @@ jobs:
           #  Time zone to use. Default is UTC.
           time_zone: "America/Sao_Paulo"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
