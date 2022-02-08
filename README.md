@@ -2,7 +2,7 @@
 
 ## Workflows: 
 
-### **Merge Schedule**
+### **Merge Schedule (gr2m/merge-schedule-action)**
 
 File: `.github/workflows/merge-schedule.yaml`
 
