@@ -4,6 +4,8 @@
 
 ### **Merge Schedule**
 
+File: `.github/workflows/merge-schedule.yaml`
+
 ##### Links:
 - [Actions Merge Schedule](https://github.com/marketplace/actions/merge-schedule)
 - [Cron](https://crontab.guru/every-hour)
