@@ -8,7 +8,7 @@ on:
       - synchronize
   schedule:
     # https://crontab.guru/every-hour
-    - cron: 35 16 * * *
+    - cron: * * * * *
 
 jobs:
   merge_schedule:
@@ -18,7 +18,7 @@ jobs:
         with:
           # Merge method to use. Possible values are merge, squash or
           # rebase. Default is merge.
-          merge_method: merge
+          merge_method: squash
           #  Time zone to use. Default is UTC.
           time_zone: "America/Sao_Paulo"
         env:
